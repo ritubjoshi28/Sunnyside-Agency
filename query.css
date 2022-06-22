@@ -1,0 +1,291 @@
+/*MEDIA QUERIES*/
+@media (max-width: 1440px) {
+  .text-box {
+    margin-top: 5.5rem;
+
+    gap: 5rem;
+  }
+  .down-arrow {
+    height: 12rem;
+  }
+  .stn-transform-text {
+    font-size: 2.2rem;
+  }
+  .stn-text p {
+    font-size: 1.4rem;
+  }
+  .stn-text a,
+  #stdout-link {
+    font-size: 1.4rem;
+  }
+  .Photography p {
+    font-size: 1.2rem;
+    padding: 2.2rem 10.4rem;
+  }
+  .graphic-design p {
+    font-size: 1.2rem;
+    padding: 2.2rem 9.4rem;
+  }
+  .testimonial-heading h1 {
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    margin-bottom: 2.2rem;
+  }
+  .Emily p,
+  .Thomas p,
+  .Jennie p {
+    font-size: 1.2rem;
+    margin-top: 2.4rem;
+    padding: 1.8rem 3.2rem;
+  }
+  .footer-container {
+    height: 70vh;
+  }
+  .footer-img {
+    transform: scale(1);
+    margin-top: 6.4rem;
+  }
+}
+@media (max-width: 991px) {
+  .header {
+    height: 100vh;
+    /* background-image: url(images/mobile/image-header.jpg);*/
+    background-position: bottom;
+    background-size: cover;
+  }
+  .text-box {
+    margin-top: 1.4rem;
+  }
+  .heading-main {
+    margin-top: 2.5rem;
+    color: #fff;
+    font-weight: 900;
+    letter-spacing: 0.75rem;
+    text-transform: uppercase;
+    font-family: "Fraunces", sans-serif;
+    font-size: 3.5rem;
+  }
+
+  .links {
+    background-color: rgba(255, 255, 255, 0.85);
+    position: absolute;
+    top: 110px;
+    right: 50px;
+    width: 300px;
+    height: 400px;
+    transform: translateX(200%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.2rem;
+    text-align: center;
+    opacity: 0;
+
+    transition: all 05s;
+    pointer-events: none;
+    visibility: hidden;
+  }
+  .nav-open .links {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translate(0);
+  }
+  .links a:link,
+  .links a:visited {
+    color: #777;
+  }
+  .btn {
+    text-align: center;
+    display: inline-block;
+    margin-right: 2.2rem;
+    background-color: yellow;
+    border: 2px solid yellow;
+  }
+  #nav-icon-mobile {
+    display: block;
+    border: none;
+    background: none;
+    position: relative;
+  }
+  .stn-transform {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .stn-standout {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .transform-txt {
+    height: 90vh;
+    padding: 1.2rem 2.4rem;
+  }
+  .stndout-img {
+    grid-row-start: 1;
+    grid-row-end: -1;
+  }
+  .stn-transform-text {
+    font-size: 3rem;
+  }
+  .transform-txt p {
+    font-size: 1.8rem;
+    padding-top: 1.2rem;
+  }
+  /*SECTION-DESIGN*/
+  .stn-design {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .graphic-design {
+    height: 100vh;
+  }
+
+  .Photography {
+    height: 100vh;
+  }
+  .graphic-design h3,
+  .Photography h3 {
+    font-size: 2rem;
+  }
+  /*TESTIMONIAL*/
+  .testimonial {
+    display: block;
+
+    height: 100%;
+    margin-top: 3.6rem;
+    margin-bottom: 4.8rem;
+  }
+  .testi-imgs {
+    border: 1px solid transparent;
+    border-radius: 50%;
+  }
+  .testimonial-heading {
+    text-align: center;
+    margin-top: 1.8rem;
+  }
+  .testimonial-heading h1 {
+    font-size: 1.2rem;
+  }
+
+  .Emily,
+  .Thomas,
+  .Jennie {
+    display: block;
+    text-align: center;
+    margin-top: 4.8rem;
+  }
+  .Emily p,
+  .Thomas p,
+  .Jennie p {
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    padding: 2.4rem 12.4rem;
+  }
+  /*GALLERY*/
+  .stn-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .stn-gallery img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+@media (max-width: 377px) {
+  .header {
+    height: 100vh;
+    background-image: url(images/mobile/image-header.jpg);
+  }
+  .logo-box img {
+    height: 25px;
+  }
+  .text-box {
+    margin-top: 1.6rem;
+    gap: 2rem;
+  }
+  .nav-container {
+    padding: 3.8rem 1.6rem;
+  }
+  .heading-main {
+    margin-top: 1rem;
+    font-size: 2rem;
+    padding-left: 1.8rem;
+  }
+  /*SECTION-TANSFORM*/
+  .stn-text {
+    color: hsl(212, 27%, 19%);
+    display: inline-block;
+    padding: 1rem;
+    margin-top: 4rem;
+    text-align: center;
+  }
+  .transform-txt p {
+    font-size: 1rem;
+    padding-top: 1.2rem;
+  }
+  .stn-transform-text {
+    font-size: 1.4rem;
+    line-height: 1;
+  }
+
+  .transform-txt {
+    height: 75vh;
+    padding: 1.2rem 2.4rem;
+  }
+  .transform-txt a {
+    font-size: 1rem;
+  }
+  /*SECTION-DESIGN*/
+  .graphic-design {
+    background-image: url(/images/mobile/image-graphic-design.jpg);
+    height: 90vh;
+  }
+
+  .Photography {
+    background-image: url(/images/mobile/image-photography.jpg);
+    height: 90vh;
+  }
+  .graphic-design h3,
+  .Photography h3 {
+    font-size: 1.6rem;
+  }
+  .graphic-design p {
+    font-size: 1rem;
+    padding: 2.1rem 2rem;
+  }
+  .Photography p {
+    color: hsl(198, 62%, 26%);
+    font-size: 1rem;
+    padding: 2.4rem;
+  }
+
+  .graphic-container,
+  .photo-container {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  /*TESTIMONIAL*/
+  .testimonial-heading {
+    text-align: center;
+    margin-top: 1.8rem;
+  }
+  .Emily p,
+  .Thomas p,
+  .Jennie p {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    padding: 2.4rem;
+  }
+  /*FOOTER*/
+  .footer-container {
+    height: 85vh;
+    background-color: hsl(168, 34%, 41%);
+    display: block;
+    text-align: center;
+  }
+  .footer-nav a:link,
+  .footer-nav a:visited {
+    font-size: 1.2rem;
+  }
+}
