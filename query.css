@@ -204,6 +204,11 @@
   .stn-transform-text {
     font-size: 30px;
   }
+  .Emily p,
+  .Thomas p,
+  .Jennie p {
+    padding: 2rem;
+  }
 }
 @media (max-width: 415px) {
   .header {
