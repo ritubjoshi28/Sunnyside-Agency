@@ -191,6 +191,20 @@
     object-fit: cover;
   }
 }
+@media (max-width: 610px) {
+  .text-box {
+    padding-left: 3rem;
+  }
+  .heading-main {
+    font-size: 40px;
+  }
+  .transform-txt p {
+    font-size: 20px;
+  }
+  .stn-transform-text {
+    font-size: 30px;
+  }
+}
 @media (max-width: 415px) {
   .header {
     background-image: url(/images/mobile/image-header.jpg);
