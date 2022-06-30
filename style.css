@@ -283,7 +283,7 @@ html {
 /*FOOTER*/
 
 .footer-container {
-  height: 100vh;
+  height: 50vh;
   background-color: hsl(168, 34%, 41%);
   display: block;
   text-align: center;
